@@ -1,0 +1,6 @@
+<form action="{{ providerURL }}" method="POST">
+    <button type="submit" ng-if="provider == 'facebook'" style="background: #4867AA" class="btn btn-default btn-lg"><i style="color: #FFFFFF" class="fa fa-facebook fa-fw"></i> <span style="color: white" class="network-name">Facebook</span></button>
+    <button type="submit" ng-if="provider == 'google'" style="background: #EA4335" class="btn btn-default btn-lg"><i style="color: #FFFFFF" class="fa fa-google fa-fw"></i> <span class="network-name">Google</span></button>
+    <input name="scope" type="hidden" value="{{ providerSetting }}"/>
+    <input name="_csrf" type="hidden" value="{{ csrf }}"/>
+</form>
