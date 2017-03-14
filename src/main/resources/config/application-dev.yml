@@ -23,7 +23,7 @@ spring:
     jackson:
         serialization.indent_output: true
     datasource:
-        url: jdbc:postgresql://
+        url: jdbc:postgresql://localhost:5432/postgres
         schema: datadrilling
         name: datadrilling
         username: postgres
@@ -45,14 +45,15 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
-        username:
-        password:
+        username: hanoush87@gmail.com
+        password: 19AA_hh87
         protocol: smtp
         tls: true
         properties.mail.smtp:
             auth: true
             starttls.enable: true
             ssl.trust: smtp.gmail.com
+
     messages:
         cache-seconds: 1
     thymeleaf:
