@@ -23,11 +23,11 @@ spring:
     jackson:
         serialization.indent_output: true
     datasource:
-        url: jdbc:postgresql://localhost:5432/postgres
+        url: jdbc:postgresql://
         schema: datadrilling
         name: datadrilling
         username: postgres
-        password: HH1987aa
+        password:
     jpa:
         database-platform: com.personal.datadrilling.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
@@ -45,8 +45,8 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
-        username: hanoush87@gmail.com  #Replace this field with your Gmail username.
-        password: 19AA_hh87           #Replace this field with your Gmail password.
+        username:
+        password:
         protocol: smtp
         tls: true
         properties.mail.smtp:
