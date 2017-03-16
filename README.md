@@ -100,7 +100,4 @@ To set up a CI environment, consult the [Setting up Continuous Integration][] pa
 [BrowserSync]: http://www.browsersync.io/
 [Karma]: http://karma-runner.github.io/
 [Jasmine]: http://jasmine.github.io/2.0/introduction.html
-[Protractor]: https://angular.github.io/protractor/
-
-## Acknowledgments
-This application was generated using JHipster 3.12.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.12.2](https://jhipster.github.io/documentation-archive/v3.12.2).
+[Protractor]: https://angular.github.io/protractor
